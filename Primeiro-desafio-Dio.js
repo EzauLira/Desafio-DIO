@@ -2,9 +2,10 @@
 let nomePokemon = "Pikachu";
 let xpPokemon = 12000;
 
-//Estrutura de switch/Case para determinar o nível do herói com base na quantidade de XP
+//Variável que receberá o nível e o rank do pokémon
 let nivelPokemon;
 
+//Estrutura de switch/Case para determinar o nível do herói com base na quantidade de XP
 switch (true) {
     case xpPokemon < 1000:
         nivelPokemon = "0 á 2 e no Rank: FERRO," + " Continue evoluindo!";
